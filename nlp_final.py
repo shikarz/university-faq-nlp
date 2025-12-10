@@ -202,7 +202,6 @@ print(f"Exact Match: {baseline_em:.4f}")
 print(f"F1:          {baseline_f1:.4f}")
 print(f"Top-1 Acc:   {baseline_acc:.4f}")
 
-# Dataset for Bi-Encoder with improved approach
 
 class BiEncoderDataset(torch.utils.data.Dataset):
     def __init__(self, df, tokenizer, max_length=128):
